@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import Model from "../Components/Model";
 import ChangeAddress from "../Components/ChangeAddress";
 const imptyCart = "https://i.ibb.co/x7c3jjS/emptycart.png";
-import { decreaseQuantity, increaseQuantity, removeFromCart } from "../Redux/cartSlice";
+import { decreaseQuantity, increaseQuantity, removeFromCart } from "../redux/cartSlice";
 import { useNavigate } from "react-router-dom";
 const Cart = () => {
   const cart = useSelector((state) => state.cart);

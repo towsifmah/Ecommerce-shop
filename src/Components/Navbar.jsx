@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import Model from "./Model";
 import Login from "./Login";
 import Ragistration from "./Ragistration";
-import { setSearchTerm } from "../Redux/ProductSlice";
+import { setSearchTerm } from "../redux/ProductSlice";
 const Navbar = () => {
   const [ismodelOpen , setismodelOpen] = useState(false);
   const [isLogin , setisLogin] = useState(true);
