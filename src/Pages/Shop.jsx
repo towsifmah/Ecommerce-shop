@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import ProductsCard from "../Components/ProductsCard";
-import { setProducts } from "../redux/ProductSlice";
+import { setProducts } from "../redux/productSlice";
 import { Product10 } from "../assets/MockData";
 
 const Shop = () => {

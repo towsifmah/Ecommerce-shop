@@ -4,7 +4,7 @@ import InfoSection from "../Components/InfoSection";
 import Category from "../Components/Category";
 const bannerImg = "https://i.ibb.co/YR91NbX/Welcome-to.png";
 import { useDispatch, useSelector } from "react-redux";
-import { setProducts } from "../redux/ProductSlice";
+import { setProducts } from "../redux/productSlice";
 import ProductsCard from "../Components/ProductsCard";
 import Shop from "./Shop";
 import { useNavigate } from "react-router-dom";
